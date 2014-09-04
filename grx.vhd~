@@ -1,0 +1,15 @@
+entity grx is 
+ port (clk: in std_logic;
+       bus_connect: inout std_logic_vector(15 downto 0);
+       ctrl: in std_logic_vector(1 downto 0);
+       
+  
+end grx;
+
+architecture grx_def of grx is
+
+begin 
+
+  
+
+end grx_def;
