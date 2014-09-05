@@ -13,7 +13,6 @@ begin
 signal line : std_logic_vector(15 downto 0) := (line'range => '0');
 type mem_t is array of (0 to 15) of line;
 constant grr : mem_t := (grr'range => line);
-
 signal mem: mem_t := grr;
 process(clk)
 begin
